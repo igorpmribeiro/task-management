@@ -1,0 +1,20 @@
+{
+  "name": "task-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "express": "^4.21.1",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "uuid": "^10.0.0"
+  }
+}
